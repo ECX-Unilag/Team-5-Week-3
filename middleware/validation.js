@@ -16,7 +16,6 @@ exports.signUpValidationRules = () => {
         body("confirmPassword").notEmpty().isLength({
             min: 5
         }).withMessage("Password must have at least 5 characters"),
-        body("role").notEmpty().isAlpha(),
     ]
 }
 
