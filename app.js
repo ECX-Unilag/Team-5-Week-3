@@ -11,6 +11,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 const userRoutes = require("./routes/user");
+const funRoutes = require("./routes/furniture");
 
 
 const app = express();
@@ -49,6 +50,7 @@ app.use(xss());
 app.use(hpp());
 
 app.use("/api/v1/user", userRoutes);
+app.use("/api/v1/furniture", funRoutes)
 
 
 app.get("/", (req, res) => {
