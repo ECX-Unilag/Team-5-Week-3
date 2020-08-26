@@ -25,3 +25,14 @@ exports.addFurniture = async (req, res) => {
         return errorResMsg(res, 500, err);
     }
 }
+
+exports.getApproved = async (req, res) => {
+    try {
+        const furnitures = await Furniture.find({
+            status: "true"
+        });
+        return successResMsg(res, 200, furnitures);
+    } catch (err) {
+        return errorResMsg(res, 500, err);
+    }
+}
