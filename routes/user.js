@@ -10,7 +10,8 @@ const auth = require("../middleware/auth");
 
 
 router.post('/signup', signUpValidationRules(), validation, userController.signUp);
-router.post('/login', loginValidationRules, validation, userController.logIn);
+router.post('/login', loginValidationRules(), validation, userController.logIn);
+router.patch('/editprofile', auth.authentication("user", "admin"), userController.updateProfile);
 
 
 
