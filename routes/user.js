@@ -7,11 +7,14 @@ const {
     validation
 } = require("../middleware/validation")
 const auth = require("../middleware/auth");
+const multer = require("multer");
+const upload = multer({ dest: "uploads/" });
 
 
 router.post('/signup', signUpValidationRules(), validation, userController.signUp);
 router.post('/login', loginValidationRules(), validation, userController.logIn);
 router.patch('/editprofile', auth.authentication("user", "admin"), userController.updateProfile);
+router.patch('/image', auth.authentication("user", "admin"), upload.single("image"), userController.imageUpload);
 
 
 
