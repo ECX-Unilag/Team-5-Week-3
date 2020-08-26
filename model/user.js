@@ -32,6 +32,9 @@ const userSchema = new mongoose.Schema({
             message: "Please, Passwords are not the same",
         },
     },
+    address: {
+        type: String
+    },
     role: {
         type: String,
         required: true,
