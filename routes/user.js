@@ -13,6 +13,7 @@ const upload = multer({ dest: "uploads/" });
 
 router.post('/signup', signUpValidationRules(), validation, userController.signUp);
 router.post('/login', loginValidationRules(), validation, userController.logIn);
+router.get('/profile', auth.authentication("user", "admin"), userController.getProfileData);
 router.patch('/editprofile', auth.authentication("user", "admin"), userController.updateProfile);
 router.patch('/image', auth.authentication("user", "admin"), upload.single("image"), userController.imageUpload);
 
