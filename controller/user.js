@@ -43,7 +43,6 @@ exports.signUp = async (req, res) => {
 
 exports.logIn = async (req, res) => {
     try {
-        console.log("hello")
         const {
             email,
             password

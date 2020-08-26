@@ -36,3 +36,15 @@ exports.getApproved = async (req, res) => {
         return errorResMsg(res, 500, err);
     }
 }
+
+exports.adminApprove = async (req, res) => {
+    try {
+        const furniture = await Furniture.findByIdAndUpdate(req.params.id, {"status":"true"}, {
+            new: true,
+        });
+        console.log(furniture)
+        return successResMsg(res, 200, furniture);
+    } catch (err) {
+        return errorResMsg(res, 500, err);
+    }
+}
