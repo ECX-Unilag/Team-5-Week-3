@@ -1,0 +1,185 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #181818;
+}
+
+.row1 {
+    width: 100%;
+}
+
+.wood {
+    color: rgb(75, 26, 26);
+    margin-left: 100px;
+}
+
+h5 {
+    color: rgb(75, 26, 26);
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+svg {
+    margin-top: 15px;
+    margin-left: 33px;
+}
+
+.row2 {
+    width: 100%;
+    margin-top: 350px;
+}
+
+.collar {
+    text-align: center;
+}
+
+.row3 {
+    width: 100%;
+    text-align: center;
+}
+
+.row4 {
+    width: 100%;
+}
+
+.form {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.word {
+    color: rgb(75, 26, 26);
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+p {
+    text-align: center;
+    padding-top: 120px;
+    color: #FFFFFF;
+}
+
+.signup {
+    width: 400px;
+    height: 350px;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+label {
+    color: #181818;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    box-sizing: border-box;
+    border: 1px solid #726F6F;
+    display: block;
+    width: 468px;
+    height: 60px;
+    background: #181818;
+    color: #FFFFFF;
+}
+
+input[type=submit] {
+    width: 468px;
+    height: 60px;
+    background: #C4C4C4;
+    border: 1px solid #4953A1;
+    box-sizing: border-box;
+}
+
+#gotosignup {
+    color: #FFFFFF;
+}
+
+footer {
+    background: #FFFFFF;
+}
+
+.footer {
+    width: 100%;
+    display: block;
+    background: #050533;
+}
+
+.inner-footer {
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-items {
+    padding: 10px 60px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-bottom: #ff9800;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 0%;
+    text-align: left;
+}
+
+ul a {
+    text-decoration: none;
+    outline: none;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+ul a:hover {
+    color: #726F6F;
+}
+
+ul li {
+    height: 25px;
+}

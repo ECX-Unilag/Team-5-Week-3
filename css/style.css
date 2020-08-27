@@ -1,0 +1,226 @@
+.row1 {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+.wood {
+    color: rgb(75, 26, 26);
+    margin-left: 100px;
+}
+
+h5 {
+    color: rgb(75, 26, 26);
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+svg {
+    margin-top: 15px;
+    margin-left: 33px;
+}
+
+.row2 {
+    width: 100%;
+    /* margin-top: 350px; */
+}
+
+.collar {
+    text-align: center;
+}
+
+.row3 {
+    width: 100%;
+    text-align: center;
+}
+
+.row4 {
+    width: 100%;
+}
+
+.form {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 100%;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.word {
+    color: rgb(75, 26, 26);
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+footer {
+    padding-top: 2em;
+}
+
+.hero {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/hero_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background: #C4C4C4; */
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0 0 0;
+}
+
+.hero div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    width: 479px;
+    /* padding: 80px 0 0 135px; */
+    color: #FFFFFF;
+    text-size-adjust: 50%;
+}
+
+.hero div:nth-child(1) h4 {
+    padding: 1em 0 0 0;
+    font-weight: 400;
+}
+
+.hero div:nth-child(2) {
+    display: flex;
+    width: fit-content;
+    padding: 80px 0 0 0;
+    margin: 0 auto
+}
+
+.hero div:nth-child(2) span {
+    background: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.hero div:nth-child(2) span {
+    cursor: pointer;
+}
+
+main {
+    background: #181818;
+    height: fit-content;
+    padding-bottom: 3em;
+}
+
+
+/* 
+.collections {
+    position: relative;
+}
+
+.coll-wrap div {
+    background: #C4C4C4;
+    width: fit-content;
+    height: fit-content;
+    padding: 1em;
+    margin: 2px;
+}
+
+.collections-wrap .coll-wrap p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+} */
+
+.collections-wrap {
+    background: white;
+    margin: 3em 0 3em 0;
+    color: black;
+}
+
+.collections-wrap header p {
+    font-size: 2.5em;
+}
+
+.coll-wrap {
+    display: flex;
+    flex-direction: row;
+    padding: 4em 4em 4em 0;
+}
+
+.coll-wrap img {
+    width: 100%;
+    /* position: absolute; */
+}
+
+.coll-wrap p {
+    color: white;
+    margin-top: -40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.top-product-headwrap {
+    margin: 5em auto;
+    width: fit-content;
+}
+
+.top-products-wrap img {
+    width: 100%;
+    text-align: center;
+}
+
+.top-products-wrap .top-prod-wrap div {
+    /* background-image: url(../img/browncouch1.png); */
+    background: #C4C4C4;
+    height: 482px;
+}
+
+.top-products-wrap .top-prod-wrap div {
+    margin: 0px;
+}
+
+.card-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-icons img {
+    width: 30%;
+    height: 25%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.prod {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 2em;
+}
+
+.gray-arrow-box {
+    width: fit-content;
+    margin: 5em auto 5em auto;
+}
+
+.gray-arrow-box img {
+    cursor: pointer;
+}
+
+.prod-hd {
+    color: white;
+    font-size: 2.5em;
+}
