@@ -1,0 +1,82 @@
+#sec1{
+    width: 60%;
+    height: 900px;
+    background-color: white;
+    margin-top: 120px;
+}
+#sec2{
+    width: 40%;
+    height: 800px;
+    background-color: tan;
+    margin-left: 60%;
+    margin-top: -895px;
+}
+.head,.subtitle{
+    color:rgb(75, 26, 26);
+    margin-left: 87px;
+}
+.head{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.row1{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.collar{
+    margin-top: 10px;
+}
+.gone{
+    width: 100%;
+}
+.ant{
+    margin-left: 100px;
+}
+.dash{
+    width: 82.5%;
+    height: 20px;
+    border-bottom:  1px dashed black;
+    margin-left: 90px;
+}
+.firm{
+    width:70%;
+    margin-left: 90px;
+}
+.one{
+    width: fit-content;
+    margin-left: 90px;
+}
+.aim{
+    margin-left: -20px;
+}
+.row4{
+    width: 100%;
+    margin-top: 20px;
+}
+.ewe{
+    margin-left: 83px;
+}    
+.eagle{
+    padding-top: 130px;
+    padding-left: 50px;
+}
+.row5{
+    width: 100%;
+    margin-top: 75px;
+    padding-left: 40px;
+}
+h6{
+    color:rgb(75, 26, 26);
+}
+.row6{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+#bush{
+    color:white;
+    background-color:rgb(75, 26, 26);
+    margin-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 40px;
+}
