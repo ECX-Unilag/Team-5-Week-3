@@ -1,0 +1,97 @@
+#sec3{
+    width: 100%;
+    height: 850px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(18, 18, 18);
+}
+#sec1{
+    width: 60%;
+    height: 900px;
+}
+#sec2{
+    width: 40%;
+    height: 300px;
+    background-color: white;
+    margin-left: 63.5%;
+    margin-top: -735px;
+}
+.head,.subtitle{
+    color:white;
+    margin-left: 87px;
+}
+.head{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -50px;
+}
+.row1{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.collar{
+    margin-top: 10px;
+    color: white;
+}
+.gone{
+    width: 100%;
+}
+.ant{
+    margin-left: 100px;
+    color: white;
+}
+.dash{
+    width: 82.5%;
+    height: 20px;
+    border-bottom:1px dashed white;
+    margin-left: 90px;
+}
+.firm{
+    width:70%;
+    margin-left: 90px;
+}
+.one{
+    width: fit-content;
+    margin-left: 90px;
+}
+.aim{
+    margin-left: -20px;
+}
+.row4{
+    width: 100%;
+    margin-top: 20px;
+}
+.ewe{
+    margin-left: 83px;
+    color: white;
+}    
+.eagle{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.row5{
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+h6{
+    color:black;
+}
+.row6{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+#bush{
+    color:white;
+    background-color:gray;
+    margin-top: -75px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 50px;
+}
+label{
+    color: white;
+}
+.can{
+    margin-top: -15px;
+}
